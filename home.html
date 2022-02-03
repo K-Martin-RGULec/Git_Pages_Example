@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <!-- Page Title -->
+        <title>Penguin Palace</title>
+
+        <!-- Stylesheet Import -->
+        <link rel='stylesheet' href='css/main.css'>
+
+    </head>
+
+    <body>
+        <header>
+            <!-- Logo and Title -->
+            <img src="images/penguin.jpg" width="200px" height="200px"/>
+            <p>Penguin Palace</p>
+            
+            <!-- Horizontal Menu -->
+            <nav>
+                <ul>
+                    <li><a href='home.html' class='active'>Home</a></li>
+                    <li><a href='home.html'>Gallery</a></li>
+                    <li><a href='home.html'>About</a></li>
+                    <li><a href='home.html'>Contact Us</a></li>
+                    <li style='float:right'><a href='home.html'>Adopt a Penguin</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <!-- Main Page content-->
+            <p>Watch our range of penguin videos today!</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3ht_87AZjoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Want to tell us how much you love penguins? Comment below!</p>
+            <form>
+                <fieldset>
+                    <legend>Comment Area</legend>
+                    
+                    <label for="user">Username:</label>
+                    <input type="text" value="">
+
+                    <br>
+                    <label for="comment">Comment</label>
+                    <br>
+                    <textarea columns="40" rows="5" value=""></textarea>
+
+                    <br>
+                    <input type="button" value="submit">
+
+                </fieldset>
+            </form>
+        
+        </main>
+
+        <aside>
+            <!-- Penguin Ranking -->
+            <table>
+                <tr>
+                    <th>Penguin</th> <th>Rank</th>
+                </tr>
+                <tr>
+                    <td>King Dedede</td> <td> 1 </td>
+                </tr>
+                <tr>
+                    <td>Pingu</td> <td> 2 </td>
+                </tr>
+            </table>
+        </aside>
+
+        <aside id='social'>
+            <p>Social Media</p>
+            <a class="twitter-timeline" data-width="220" data-height="350" data-theme="dark" href="https://twitter.com/penguinusa?ref_src=twsrc%5Etfw">Tweets by penguinusa</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        </aside>
+
+        <footer>
+            <p>Copyright by moi</p>
+        </footer>
+
+    </body>
+</html>
